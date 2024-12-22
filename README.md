@@ -35,12 +35,11 @@ This project focuses on creating an efficient and scalable automation testing fr
 ```
 project-root
 │
-├── src/main/java
-│   ├── pages/                # POM classes representing each web page
-│   ├── utils/                # Utility classes (e.g., Excel handling, config)
-│
 ├── src/test/java
 │   ├── tests/                # Test scripts for various features
+│   ├── pages/                # POM classes representing each web page
+│   ├── utils/                # Utility classes (e.g., Excel handling, config)
+├── src/test/resorces
 │   ├── testdata/             # Test data files (Excel, JSON, etc.)
 │
 ├── reports/                  # Test execution reports
