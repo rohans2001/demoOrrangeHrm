@@ -60,7 +60,7 @@ project-root
 ### Steps to Run the Automation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git https://github.com/rohans2001/demoOrrangeHrm
    ```
 2. Import the project into your IDE.
 3. Update the `config.properties` file with the required details (e.g., URL, credentials).
