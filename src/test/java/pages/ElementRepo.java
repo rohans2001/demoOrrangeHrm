@@ -44,4 +44,15 @@ public class ElementRepo {
 				return loginbutton;
 			}
 		}
+		
+		// 4. Error message
+				@FindBy(xpath = "//p[.='Invalid credentials']")
+
+				private WebElement errormsg;
+
+				public WebElement ErroeMsg() {
+					{
+						return errormsg;
+					}
+				}
 }
